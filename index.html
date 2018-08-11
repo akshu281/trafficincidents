@@ -8,7 +8,7 @@ $(document).ready(function(){
 function updateData(){
     
     $.ajax({
-   url:'http://CORS-Anywhere.HerokuApp.com/http://datamall2.mytransport.sg/ltaodataservice/TrafficIncidents',
+   url:'https://CORS-Anywhere.HerokuApp.com/http://datamall2.mytransport.sg/ltaodataservice/TrafficIncidents',
     type: "GET",
          crossOrigin:true,
          beforeSend: function(xhr){xhr.setRequestHeader('accept', 'application/json');
